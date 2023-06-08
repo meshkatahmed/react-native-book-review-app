@@ -1,4 +1,4 @@
-import { Button, Text, TextInput, View, StyleSheet } from "react-native";
+import { Button, TextInput, View, StyleSheet } from "react-native";
 
 export default function Login() {
   return (
@@ -17,5 +17,6 @@ const styles = StyleSheet.create({
     margin: 12,
     borderWidth: 1,
     padding: 10,
-  }
+    borderColor: 'blue',
+  },
 });
